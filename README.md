@@ -3,4 +3,4 @@
 
 
 
-#My solutions to 2024 free reaponse questions 
+#My solutions to 2024 free response questions 

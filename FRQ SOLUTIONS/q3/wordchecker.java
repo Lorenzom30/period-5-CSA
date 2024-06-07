@@ -14,22 +14,22 @@ public class WordChecker {
       }
     }
 
-    return false;
+    return true;
   }
   public ArrayList<String> createList(String word){
     ArrayList<String> list = new ArrayList<String>();
     for(int i = 0; i < wordList.size(); i++){
       if(wordList.get(i).indexOf(word) == 0){
-        list.add(wordList.get(i));
-        word = wordList.get(i);
+        list.add(wordList.get(i).substring(word.length()));
+        
       }
     }
     return list;
   }
 
-  public ArrayList<String> createList(String target) {
-    ArrayList<String> result = new ArrayList<String>();
+  //public ArrayList<String> createListd(String target) {
+   // ArrayList<String> result = new ArrayList<String>();
 
-    return result;             
-  }
+    //return result;             
+  //}
 }
